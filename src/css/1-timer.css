@@ -11,9 +11,6 @@ input {
   background-color: transparent;
   outline: transparent;
 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 0;
   letter-spacing: 0.04em;
   color: #2e2f42;
@@ -36,21 +33,25 @@ button {
   padding: 8px 16px;
   width: 75px;
   height: 40px;
-  background-color: #4e75ff;
+  background-color: #cfcfcf;
   border: none;
   padding: 0;
   line-height: 0;
 
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #989898;
   transition: background-color 250ms linear;
 }
 
-button:hover {
+.active-btn {
+  background-color: #4e75ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active-btn:hover {
   background-color: #6c8cff;
 }
 
@@ -69,8 +70,6 @@ button:hover {
 }
 
 .value {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.04em;
@@ -78,9 +77,6 @@ button:hover {
 }
 
 .label {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
 }
